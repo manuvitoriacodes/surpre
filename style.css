@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff0f3;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #e8a0ad;
+    max-width: 500px;
+    width: 90%;
+}
+
+h1 {
+    color: #d6335c;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #75404b;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #e75480;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#textoDeclaracao {
+    color: #d6335c;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 35px 0;
+    line-height: 1.6;
+}
+
+#contadorDeclaracoes {
+    color: #e75480;
+    margin-top: 20px;
+}
+
+#botaoContinuar {
+    margin-top: 20px;
+}
+
+
+#tempoJuntos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.tempo {
+    background-color: #ffe0e8;
+    padding: 15px;
+    border-radius: 15px;
+    min-width: 85px;
+}
+
+.tempo span {
+    display: block;
+    color: #d6335c;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.tempo p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #75404b;
+}
+
+#contadorAmor h2 {
+    color: #d6335c;
+    margin-top: 25px;
+}
+
+
+#ultimaSurpresa h1 {
+    color: #d6335c;
+    margin-bottom: 25px;
+}
+
+#ultimaSurpresa p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+#ultimaSurpresa h2 {
+    color: #d6335c;
+    margin: 30px 0;
+    font-size: 22px;
+}
+
+
+/* ÁREA DOS BOTÕES DO PEDIDO */
+#botoesPedido {
+    position: relative;
+    min-height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* BOTÃO SIM */
+#botaoSim {
+    background-color: #e75480;
+}
+
+/* BOTÃO NÃO */
+#botaoNao {
+    background-color: #888;
+    z-index: 2;
+}
+
+/* TELA DO PEDIDO */
+#pedidoCasamento h2 {
+    color: #d6335c;
+    margin: 30px 0;
+}
+
+/* TELA FINAL */
+#finalPedido h1 {
+    color: #d6335c;
+}
+
+#finalPedido p {
+    line-height: 1.7;
+}

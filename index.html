@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Uma surpresa para Meu Amor ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main>
+
+    <!-- PRIMEIRA TELA -->
+    <section id="inicio">
+
+        <h1>Oi, Wellington! ❤️</h1>
+
+        <p>Preparei uma surpresa muito especial para você...</p>
+
+        <button onclick="comecar()">
+            Abrir minha surpresa 💌
+        </button>
+
+    </section>
+
+
+    <!-- SEGUNDA TELA -->
+    <section id="mensagem" style="display: none;">
+
+        <h1>Meu amor! ❤️</h1>
+
+        <p>
+            Se você chegou até aqui, é porque decidiu
+            descobrir o que preparei para você.
+        </p>
+
+        <p>
+            Quero que saiba que você é uma das pessoas
+            mais especiais da minha vida.
+        </p>
+
+        <button onclick="proximaPagina()">
+            Quero continuar ❤️
+        </button>
+
+    </section>
+
+
+    <!-- TERCEIRA TELA -->
+    <section id="declaracoes" style="display: none;">
+
+        <h1>Algumas coisas que quero te dizer ❤️</h1>
+
+        <p id="textoDeclaracao">
+            Tenho algumas coisinhas guardadas para você...
+        </p>
+
+        <button onclick="mostrarDeclaracao()">
+            Descobrir declaração 💌
+        </button>
+
+        <p id="contadorDeclaracoes"></p>
+
+        <button
+            id="botaoContinuar"
+            onclick="irParaContador()"
+            style="display: none;">
+
+            Tenho mais uma surpresa ❤️
+
+        </button>
+
+    </section>
+
+
+    <!-- QUARTA TELA: CONTADOR -->
+    <section id="contadorAmor" style="display: none;">
+
+        <h1>Todo esse tempo com você... ❤️</h1>
+
+        <p>
+            Desde 31 de março de 2024, minha vida ganhou
+            um motivo a mais para sorrir.
+        </p>
+
+        <h2>Estamos juntos há:</h2>
+
+        <div id="tempoJuntos">
+
+            <div class="tempo">
+                <span id="anos">0</span>
+                <p>Anos</p>
+            </div>
+
+            <div class="tempo">
+                <span id="meses">0</span>
+                <p>Meses</p>
+            </div>
+
+            <div class="tempo">
+                <span id="dias">0</span>
+                <p>Dias</p>
+            </div>
+
+            <div class="tempo">
+                <span id="horas">0</span>
+                <p>Horas</p>
+            </div>
+
+            <div class="tempo">
+                <span id="minutos">0</span>
+                <p>Minutos</p>
+            </div>
+
+            <div class="tempo">
+                <span id="segundos">0</span>
+                <p>Segundos</p>
+            </div>
+
+        </div>
+
+        <p>
+            E que venham muitos outros anos ao seu lado! 💗
+        </p>
+
+        <button onclick="mostrarUltimaSurpresa()">
+            Ainda tenho algo para te perguntar... 💍
+        </button>
+
+    </section>
+
+
+    <!-- QUINTA TELA: A ÚLTIMA SURPRESA -->
+    <section id="ultimaSurpresa" style="display: none;">
+
+        <h1>Wellington... ❤️</h1>
+
+        <p>
+            Chegamos até aqui, e eu ainda tenho
+            uma coisa muito importante para te dizer.
+        </p>
+
+        <p>
+            Desde que você chegou à minha vida,
+            muita coisa ficou mais bonita.
+        </p>
+
+        <p>
+            Eu não sei o que o futuro nos reserva,
+            mas sei que quero continuar vivendo
+            cada capítulo dele ao seu lado.
+        </p>
+
+        <h2>Está preparado para minha última pergunta? 🥹</h2>
+
+        <button onclick="mostrarPedido()">
+            Estou preparado! ❤️
+        </button>
+
+    </section>
+
+
+    <!-- SEXTA TELA: PEDIDO DE CASAMENTO -->
+    <section id="pedidoCasamento" style="display: none;">
+
+        <h1>Wellington, meu amor... ❤️</h1>
+
+        <p>
+            Depois de tudo que vivemos, quero continuar
+            escolhendo você todos os dias.
+        </p>
+
+        <h2>Você aceita se casar comigo? 💍</h2>
+
+        <div id="botoesPedido">
+
+            <button id="botaoSim" onclick="aceitarPedido()">
+                SIM, EU ACEITO! ❤️
+            </button>
+
+            <button id="botaoNao">
+                NÃO 🙈
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- SÉTIMA TELA: FINAL -->
+    <section id="finalPedido" style="display: none;">
+
+        <h1>EU SABIA! 😭❤️</h1>
+
+        <p>
+            Você acabou de deixar minha vida ainda mais feliz!
+        </p>
+
+        <p>
+            Que venham muitos capítulos, sonhos e anos ao seu lado. 💍
+        </p>
+
+        <h2>Eu te amo! ❤️</h2>
+
+        <div>💗 ❤️ 💍 ❤️ 💗</div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
